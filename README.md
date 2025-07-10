@@ -1,53 +1,32 @@
-# NLW Agents
+# NLW Agents (Server)
 
-Este projeto foi desenvolvido durante o evento NLW da Rocketseat.
+Projeto desenvolvido durante o evento NLW da Rocketseat.
 
-## Tecnologias e Bibliotecas Utilizadas
+## Tecnologias Utilizadas
 
-- **Backend (server):**
-  - Node.js
-  - TypeScript
-  - Drizzle ORM
-  - SQLite (banco de dados)
-  - Docker (opcional para ambiente de desenvolvimento)
-
-- **Frontend (web):**
-  - React
-  - TypeScript
-  - Vite
+- Node.js
+- TypeScript
+- Drizzle ORM
+- SQLite (banco de dados)
+- Docker (opcional para desenvolvimento)
 
 ## Padrões de Projeto
 
-- Estrutura separada em `server` (backend) e `web` (frontend)
-- Organização de rotas, controllers e schemas no backend
-- Componentização no frontend usando React
+- Estrutura modular com separação de responsabilidades
+- Organização de rotas, controllers e schemas
 
-## Setup e Configuração
+## Como rodar o backend
 
-### Backend (server)
 1. Instale as dependências:
    ```bash
-   cd server
    npm install
    ```
-2. Configure o ambiente (opcional):
-   - Edite o arquivo `.env` se necessário.
-3. Execute as migrações e rode o servidor:
-   ```bash
-   npm run dev
-   ```
-
-### Frontend (web)
-1. Instale as dependências:
-   ```bash
-   cd web
-   npm install
-   ```
-2. Inicie o projeto:
+2. (Opcional) Configure variáveis de ambiente no arquivo `.env`.
+3. Rode as migrações e inicie o servidor:
    ```bash
    npm run dev
    ```
 
 ---
 
-Projeto desenvolvido no evento NLW da Rocketseat.
+Projeto criado no evento NLW da Rocketseat.
