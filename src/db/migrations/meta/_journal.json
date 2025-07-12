@@ -15,6 +15,13 @@
       "when": 1752143441417,
       "tag": "0001_silly_lily_hollister",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752343168160,
+      "tag": "0002_concerned_franklin_richards",
+      "breakpoints": true
     }
   ]
 }
